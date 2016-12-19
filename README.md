@@ -9,10 +9,20 @@ A slackbot used to give recommendations for lunch spots and happy hours.
 - Botkit to make our lives easier https://howdy.ai/botkit/
 
 # To Start It
-Get a token from https://thelunchcrew.slack.com/services/B345QSEDV
+Download and install the botkit
+```
+git clone git@github.com:howdyai/botkit.git
+cd botkit
+npm install
+```
+
+Copy the `lib` folder into the lunchbot repo.
+
+Get the token from https://thelunchcrew.slack.com/services/B345QSEDV (don't generate a new one unless you believe it to be compromised)
 
 NEVER SHARE THIS TOKEN WITH ANYONE OUTSIDE THE PROJECT
 
+Start lunchbot with the following command (currently using a demo file):
 ```
 token=REPLACE_THIS_WITH_YOUR_TOKEN nodejs slack_bot.js
 ```
