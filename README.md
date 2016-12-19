@@ -9,6 +9,12 @@ A slackbot used to give recommendations for lunch spots and happy hours.
 - Botkit to make our lives easier https://howdy.ai/botkit/
 
 # To Start It
-token=REPLACE_THIS_WITH_YOUR_TOKEN node slack_bot.js
+Get a token from https://thelunchcrew.slack.com/services/B345QSEDV
+
+NEVER SHARE THIS TOKEN WITH ANYONE OUTSIDE THE PROJECT
+
+```
+token=REPLACE_THIS_WITH_YOUR_TOKEN nodejs slack_bot.js
+```
 
 I have no idea what happens when multiple users try to start up the same bot. Let's try to avoid that.
